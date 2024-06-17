@@ -1,3 +1,5 @@
+//useDispatch & useSelector
+
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { removeTodo } from '../Redux/todoSlice'
@@ -7,7 +9,7 @@ function Todo() {
    const dispatch = useDispatch()
   return (
     <>
-    <div className='text-white text-lg mt-4'>Todos</div>
+    <div className='text-white text-lg mt-4'>Todos &darr;</div>
     <ul className="list-none">
         {todos.map((todo) => (
           <li

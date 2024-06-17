@@ -5,7 +5,8 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 const initialState = {
-    todos : [{id:1,text:"Hello World!"}]
+    todos : []
+    // {id:1,text:"Your Todo's"}
 }
 
 export const todoSlice = createSlice({
